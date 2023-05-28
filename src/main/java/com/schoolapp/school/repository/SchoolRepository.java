@@ -1,7 +1,7 @@
-package com.school_app.school.repository;
+package com.schoolapp.school.repository;
 
-import com.school_app.lib.repository.BaseRepository;
-import com.school_app.school.model.School;
+import com.schoolapp.lib.repository.BaseRepository;
+import com.schoolapp.school.model.School;
 import org.springframework.stereotype.Repository;
 
 @Repository

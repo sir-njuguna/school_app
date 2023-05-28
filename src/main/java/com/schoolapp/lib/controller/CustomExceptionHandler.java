@@ -1,8 +1,8 @@
-package com.school_app.lib.controller;
+package com.schoolapp.lib.controller;
 
-import com.school_app.lib.exception.CommonRuntimeException;
-import com.school_app.lib.service.Message;
-import com.school_app.lib.view.ApiResponse;
+import com.schoolapp.lib.exception.CommonRuntimeException;
+import com.schoolapp.lib.service.Message;
+import com.schoolapp.lib.view.ApiResponse;
 import org.springframework.http.HttpStatus;
 import org.springframework.validation.ObjectError;
 import org.springframework.web.bind.MethodArgumentNotValidException;

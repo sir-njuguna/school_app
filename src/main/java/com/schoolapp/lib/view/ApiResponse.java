@@ -1,4 +1,4 @@
-package com.school_app.lib.view;
+package com.schoolapp.lib.view;
 
 import com.fasterxml.jackson.annotation.JsonInclude;
 import lombok.AllArgsConstructor;

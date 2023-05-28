@@ -1,4 +1,4 @@
-package com.school_app.lib.exception;
+package com.schoolapp.lib.exception;
 
 public class NotImplementedException extends RuntimeException{
 }

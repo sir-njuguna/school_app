@@ -1,6 +1,6 @@
-package com.school_app.lib.view;
+package com.schoolapp.lib.view;
 
-import com.school_app.lib.model.BaseModel;
+import com.schoolapp.lib.model.BaseModel;
 
 public class BaseView<T extends BaseModel>{
     protected final T entity;

@@ -1,4 +1,4 @@
-package com.school_app.lib.service;
+package com.schoolapp.lib.service;
 
 import org.springframework.context.MessageSource;
 import org.springframework.lang.NonNull;

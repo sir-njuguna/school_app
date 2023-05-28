@@ -1,6 +1,6 @@
-package com.school_app.school.model;
+package com.schoolapp.school.model;
 
-import com.school_app.lib.model.BaseModel;
+import com.schoolapp.lib.model.BaseModel;
 import jakarta.persistence.*;
 import lombok.Getter;
 import lombok.Setter;

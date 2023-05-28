@@ -1,8 +1,8 @@
-package com.school_app.school.controller;
+package com.schoolapp.school.controller;
 
-import com.school_app.lib.view.PagedEntityApiResponse;
-import com.school_app.school.service.SchoolRetrievalService;
-import com.school_app.school.view.SchoolView;
+import com.schoolapp.lib.view.PagedEntityApiResponse;
+import com.schoolapp.school.service.SchoolRetrievalService;
+import com.schoolapp.school.view.SchoolView;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.RequestMapping;
@@ -20,7 +20,7 @@ public class SchoolListingController {
             @RequestParam(value = "pageNum", required = false, defaultValue = "0") Integer pageNum,
             @RequestParam(value = "pageSize", required = false, defaultValue = "100") Integer pageSize){
 
-        return null;
+        return schoolRetrievalService.getSchools(pageNum, pageSize);
     }
 
     @Autowired

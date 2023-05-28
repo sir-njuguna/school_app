@@ -1,7 +1,7 @@
-package com.school_app.school.view;
+package com.schoolapp.school.view;
 
-import com.school_app.lib.view.BaseView;
-import com.school_app.school.model.School;
+import com.schoolapp.lib.view.BaseView;
+import com.schoolapp.school.model.School;
 
 public class SchoolView extends BaseView<School> {
     public SchoolView(School entity) {

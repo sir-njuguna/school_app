@@ -1,4 +1,4 @@
-package com.school_app.school.form;
+package com.schoolapp.school.form;
 
 import jakarta.validation.constraints.Email;
 import jakarta.validation.constraints.NotBlank;

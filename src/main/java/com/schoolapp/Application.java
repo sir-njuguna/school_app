@@ -1,4 +1,4 @@
-package com.school_app;
+package com.schoolapp;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;

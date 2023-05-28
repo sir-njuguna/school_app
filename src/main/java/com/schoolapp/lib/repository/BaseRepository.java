@@ -1,6 +1,6 @@
-package com.school_app.lib.repository;
+package com.schoolapp.lib.repository;
 
-import com.school_app.lib.model.BaseModel;
+import com.schoolapp.lib.model.BaseModel;
 import org.springframework.data.domain.Page;
 import org.springframework.data.domain.PageRequest;
 import org.springframework.data.domain.Pageable;
@@ -13,7 +13,7 @@ import java.util.Optional;
 
 @NoRepositoryBean
 public interface BaseRepository<T extends BaseModel> extends JpaRepository<T, Long> {
-    Sort DEFAULT_SORT = Sort.by(Sort.Direction.DESC, "timeCreatedInMs");
+    Sort DEFAULT_SORT = Sort.by(Sort.Direction.DESC, "timeCreated");
 
     Optional<T> findTopByOrderByTimeCreatedDesc();
 

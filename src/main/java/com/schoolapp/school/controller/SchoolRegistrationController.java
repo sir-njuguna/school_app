@@ -1,13 +1,13 @@
-package com.school_app.school.controller;
+package com.schoolapp.school.controller;
 
-import com.school_app.lib.service.Message;
-import com.school_app.lib.view.EntityApiResponse;
-import com.school_app.school.form.SchoolEmailUpdateForm;
-import com.school_app.school.form.SchoolRegistrationForm;
-import com.school_app.school.form.SchoolNameUpdateForm;
-import com.school_app.school.model.School;
-import com.school_app.school.service.SchoolRegistrationService;
-import com.school_app.school.view.SchoolView;
+import com.schoolapp.lib.service.Message;
+import com.schoolapp.lib.view.EntityApiResponse;
+import com.schoolapp.school.form.SchoolEmailUpdateForm;
+import com.schoolapp.school.form.SchoolRegistrationForm;
+import com.schoolapp.school.form.SchoolNameUpdateForm;
+import com.schoolapp.school.model.School;
+import com.schoolapp.school.service.SchoolRegistrationService;
+import com.schoolapp.school.view.SchoolView;
 import jakarta.validation.Valid;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.HttpStatus;

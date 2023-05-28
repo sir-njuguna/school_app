@@ -1,4 +1,4 @@
-package com.school_app.lib.model;
+package com.schoolapp.lib.model;
 
 import jakarta.persistence.*;
 import lombok.Getter;

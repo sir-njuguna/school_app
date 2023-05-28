@@ -1,12 +1,12 @@
-package com.school_app.school.service;
+package com.schoolapp.school.service;
 
-import com.school_app.lib.exception.CommonRuntimeException;
-import com.school_app.lib.exception.ExceptionType;
-import com.school_app.school.form.SchoolEmailUpdateForm;
-import com.school_app.school.form.SchoolRegistrationForm;
-import com.school_app.school.form.SchoolNameUpdateForm;
-import com.school_app.school.model.School;
-import com.school_app.school.repository.SchoolRepository;
+import com.schoolapp.lib.exception.CommonRuntimeException;
+import com.schoolapp.lib.exception.ExceptionType;
+import com.schoolapp.school.form.SchoolEmailUpdateForm;
+import com.schoolapp.school.form.SchoolRegistrationForm;
+import com.schoolapp.school.form.SchoolNameUpdateForm;
+import com.schoolapp.school.model.School;
+import com.schoolapp.school.repository.SchoolRepository;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
